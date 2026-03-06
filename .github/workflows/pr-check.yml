@@ -35,3 +35,7 @@ jobs:
           # pip install pytest
           # pytest
           echo "Replace with your test command (e.g., pytest)"
+
+      - name: Run Build with python
+        run: |
+          python main.py
